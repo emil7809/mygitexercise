@@ -1,0 +1,29 @@
+header {
+  background-color: rgb(155, 72, 158);
+  padding: 5px;
+}
+li {
+  display: inline;
+  padding: 5px;
+  border-right: 1px solid black;
+  width: 100%;
+  text-align: center;
+}
+
+li:last-of-type {
+  border-right: none;
+}
+
+ul {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(245, 206, 225);
+  width: 80%;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
